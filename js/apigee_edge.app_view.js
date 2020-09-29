@@ -70,6 +70,7 @@
         }
         else {
           $(el).html('<span>&#149;&#149;&#149;&#149;&#149;&#149;&#149;&#149;<br><a href="#" class="secret-show-hide">' + Drupal.t('Show') + '</a></span>');
+          $(showHideEl).removeClass(pClass);
         }
         $(el).toggleClass('secret-hidden');
       }
